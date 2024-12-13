@@ -10026,3 +10026,81 @@ a.ui-button:active,
   align-items: center; /* Centra verticalmente */
   margin-left: auto; /* Empuja hacia el lado derecho */
 }
+
+.cs_logo_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cs_logo_icon {
+  width: 50px; /* Ajusta el tamaño del ícono */
+  height: auto;
+  transition: transform 1s ease-in-out;
+}
+
+.cs_logo_icon:hover {
+  transform: rotate(360deg);
+}
+
+.cs_logo_text {
+  font-size: 20px; /* Ajusta el tamaño del texto */
+  font-weight: bold;
+  color: #000; /* Cambia el color del texto si es necesario */
+}
+
+
+.stylish-box {
+  background-color: #a67c52; /* Color dorado/marrón */
+  color: white; /* Color del texto */
+  padding: 20px 40px; /* Espaciado interno */
+  border-radius: 15px; /* Bordes redondeados */
+  font-size: 1.5em; /* Tamaño de fuente */
+  font-family: 'Dancing Script', cursive; /* Estilo manuscrito */
+  text-align: center; /* Centrado del texto */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2); /* Sombra sutil */
+}
+
+
+/* Contenedor principal */
+.counter-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; /* Centra verticalmente los elementos */
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto; /* Centrado horizontal */
+  padding: 20px 0;
+  background-color: #f8f9fa; /* Fondo claro */
+  border-radius: 15px; /* Bordes redondeados */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+/* Cada elemento del contador */
+.counter-item {
+  text-align: center;
+  margin: 0 20px;
+}
+
+/* Títulos */
+.counter-title {
+  font-size: 1.2em;
+  color: #1d5c63; /* Azul oscuro */
+  margin-bottom: 10px;
+}
+
+/* Números */
+.counter-number {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #aa8453; /* Dorado claro */
+  margin: 10px 0;
+}
+
+/* Descripciones */
+.counter-description {
+  font-size: 1em;
+  color: #1d5c63; /* Azul oscuro */
+  margin-top: 5px;
+  font-family: Arial, sans-serif;
+}
