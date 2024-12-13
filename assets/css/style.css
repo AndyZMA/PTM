@@ -10026,3 +10026,25 @@ a.ui-button:active,
   align-items: center; /* Centra verticalmente */
   margin-left: auto; /* Empuja hacia el lado derecho */
 }
+
+.cs_logo_container {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cs_logo_icon {
+  width: 50px; /* Ajusta el tamaño del ícono */
+  height: auto;
+  transition: transform 1s ease-in-out;
+}
+
+.cs_logo_icon:hover {
+  transform: rotate(360deg);
+}
+
+.cs_logo_text {
+  font-size: 20px; /* Ajusta el tamaño del texto */
+  font-weight: bold;
+  color: #000; /* Cambia el color del texto si es necesario */
+}
