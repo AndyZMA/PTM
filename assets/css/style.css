@@ -10102,8 +10102,19 @@ a.ui-button:active,
 /* Descripciones */
 /* Descripciones */
 .counter-description {
-  font-size: 1em;
+  font-size: 20px;
   color: black; /* Azul oscuro */
   margin-top: 5px;
   font-family: 'Libre Caslon Display' /* Fuente para descripciones */
+}
+
+
+.cs_hero_title {
+  font-size: 60px; /* Tamaño para desktop */
+}
+
+@media screen and (max-width: 768px) {
+  .cs_hero_title {
+    font-size: 30px; /* Tamaño para dispositivos móviles */
+  }
 }
