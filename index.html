@@ -10,7 +10,7 @@
     <meta name="keywords" content="Odyssey, viajes, experiencias inolvidables, destinos excepcionales, vuelos, hoteles, aventuras únicas" />
     <meta property="og:title" content="Odyssey: Experiencias de Viaje Inolvidables" />
     <meta property="og:description" content="Planea tu próxima travesía con Odyssey: más allá de lo imaginable. ¡Explora el mundo con nosotros!" />
-    <meta property="og:image" content="https://b9c34337d34eb8aa9af750796c9d08ec.cdn.bubble.io/f1733862959912x649914215483786900/SEO_ODYSSEY.png" />
+    <meta property="og:image" content="https://b9c34337d34eb8aa9af750796c9d08ec.cdn.bubble.io/f1733872905068x417648573317950900/SEO_ODYSSEY.png" />
     <meta property="og:url" content="https://tusitio.com" />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
@@ -35,46 +35,50 @@
   <body>
     <!-- Start Preloader -->
      
-    <div id="loader" class="preloader">
+    <!-- <div id="loader" class="preloader">
       <div class="spinner"></div>
     </div>
-    
+     -->
     <!-- End Preloader -->
     <!-- Start Header Section -->
     <header class="cs_site_header cs_style_1 cs_transparent_header cs_primary_color cs_sticky_header">
       <div class="cs_main_header">
         <div class="container">
           <div class="cs_main_header_in">
+            <!-- Logo -->
             <div class="cs_main_header_left">
               <a class="cs_site_branding" href="index.html">
                 <div class="cs_logo_container">
                   <!-- Icono del logo -->
                   <img src="assets/img/ODYSSEY_ICON.svg" alt="Logo Icon" class="cs_logo_icon" style="width: 70px;">
                   <!-- Imagen del texto del logo -->
-                  <img src="assets/img/ODYSSEY_TEXT.svg" alt="Logo Text" c lass="cs_logo_text" style="width: 160px;">
+                  <img src="assets/img/ODYSSEY_TEXT.svg" alt="Logo Text" class="cs_logo_text" style="width: 160px;">
                 </div>
               </a>
             </div>
+            <!-- Navegación -->
             <div class="cs_main_header_center">
               <nav class="cs_nav cs_fs_13 cs_semibold">
                 <ul class="cs_nav_list">
-                  <li>
-                    <a href="index.html">Inicio</a>
-                  </li>
+                  <li><a href="index.html">Inicio</a></li>
                   <li><a href="#">Travel</a></li>
                   <li><a href="#">Membresía</a></li>
                 </ul>
               </nav>
             </div>
+            <!-- Botón de acceso -->
             <div class="cs_main_header_right">
               <a href="https://app.odysseys.mx/" target="_blank" class="cs_btn cs_style_2 cs_medium cs_radius_20 cs_fs_15">
                 Acceso a Plataforma
               </a>
             </div>
+            <!-- Menú hamburguesa -->
+            <!-- <div class="cs_menu_toggle"></div> -->
           </div>
         </div>
       </div>
     </header>
+    
     <!-- End Header Section -->
 
     <!-- Start Hero Section -->
@@ -121,7 +125,7 @@
                     <b>Odyssey: Donde los sueños cobran vida</b>
                     
                   </p>
-                  <h1 class="cs_hero_title cs_fs_89 cs_white_color mb-0" style="font-size: 60px;">Sumérgete en mundos llenos de magia y <br>aventuras diseñadas para despertar tu imaginación</h1>
+                  <h1 class="cs_hero_title cs_fs_89 cs_white_color mb-0">Sumérgete en mundos llenos de magia y <br>aventuras diseñadas para despertar tu imaginación</h1>
                 </div>
               </div>
             </div>
@@ -1352,6 +1356,18 @@
       event.stopPropagation(); // Bloquea la propagación del evento
       });
       });
+
+
+      document.addEventListener('DOMContentLoaded', () => {
+  const menuToggle = document.querySelector('.cs_menu_toggle');
+  const header = document.querySelector('.cs_site_header');
+
+  menuToggle.addEventListener('click', () => {
+    menuToggle.classList.toggle('cs_toggle_active');
+    header.classList.toggle('menu-open'); // Clase adicional si es necesaria
+  });
+});
+
 
     </script>
 

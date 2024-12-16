@@ -10108,6 +10108,25 @@ a.ui-button:active,
   font-family: 'Libre Caslon Display' /* Fuente para descripciones */
 }
 
+/* Móviles (pantallas pequeñas) */
+@media (max-width: 480px) {
+  .counter-container {
+    padding: 10px;
+  }
+
+  .counter-title {
+    font-size: 0.9em;
+  }
+
+  .counter-number {
+    font-size: 1.8em;
+  }
+
+  .counter-description {
+    font-size: 0.9em;
+  }
+}
+
 
 .cs_hero_title {
   font-size: 60px; /* Tamaño para desktop */
