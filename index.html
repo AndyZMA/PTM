@@ -35,10 +35,10 @@
   <body>
     <!-- Start Preloader -->
      
-    <!-- <div id="loader" class="preloader">
+    <div id="loader" class="preloader">
       <div class="spinner"></div>
     </div>
-     -->
+     
     <!-- End Preloader -->
     <!-- Start Header Section -->
     <header class="cs_site_header cs_style_1 cs_transparent_header cs_primary_color cs_sticky_header">
@@ -726,7 +726,7 @@
                   </div>
                 </div>
               </div>
-              
+
               <div class="cs_slide">
                 <div class="cs_post cs_style_1">
                   <a href="#" class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
@@ -808,6 +808,7 @@
                   </div>
                 </div>
               </div>
+
               <div class="cs_slide">
                 <div class="cs_post cs_style_1">
                   <a href="#" class="cs_post_thumb cs_radius_5 overflow-hidden d-block cs_mb_29 cs_mb_lg_20 position-relative">
@@ -1495,17 +1496,19 @@
 
 
       document.addEventListener('DOMContentLoaded', () => {
-  const menuToggle = document.querySelector('.cs_menu_toggle');
-  const header = document.querySelector('.cs_site_header');
+      const menuToggle = document.querySelector('.cs_menu_toggle');
+      const header = document.querySelector('.cs_site_header');
 
-  menuToggle.addEventListener('click', () => {
-    menuToggle.classList.toggle('cs_toggle_active');
-    header.classList.toggle('menu-open'); // Clase adicional si es necesaria
-  });
-});
-
+      menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('cs_toggle_active');
+      header.classList.toggle('menu-open'); // Clase adicional si es necesaria
+      });
+      });
 
     </script>
+
+
+
 
 
 <script>function loadScript(a){var b=document.getElementsByTagName("head")[0],c=document.createElement("script");c.type="text/javascript",c.src="https://tracker.metricool.com/resources/be.js",c.onreadystatechange=a,c.onload=a,b.appendChild(c)}loadScript(function(){beTracker.t({hash:"8a330064ab7fbc5e0a773e59e3fd4a7b"})});</script>|
